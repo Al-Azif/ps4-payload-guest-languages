@@ -32,7 +32,7 @@
   "errorMetadataNullName": "Un Nome di un payload risulta NULL",
   "errorMetadataMissingPayloadFile": "Impossibile trovare un payload",
 
-  "errorNoPayloads": "Non sono presenti payload disponibili :(",
+  "errorNoPayloads": "Non sono presenti payloads disponibili :(",
 
   "errorShellcodeOpen": "Impossibile aprire: %s",
   "errorShellcodeMmap": "Unable to mmap payload",
