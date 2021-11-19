@@ -1,0 +1,43 @@
+{
+  "mainTitle": "Payload Guest",
+  "creditsTitle": "制作人员",
+
+  "loadingTick1": "加载中.",
+  "loadingTick2": "加载中..",
+  "loadingTick3": "加载中...",
+
+  "ok": "好的",
+  "select": "选择",
+  "refresh": "刷新",
+  "credits": "制作人员",
+  "return": "返回",
+
+  "pageIndicator": "页 %i / %i",
+
+  "errorFatal": "发生致命错误！",
+  "errorCloseApplication": "请关闭应用",
+  "errorLoadLibjbc": "未能加载 libjbc.prx",
+  "errorInitializeLibjbc": "未能初始化 libjbc",
+  "errorJailbreak": "未能成功破解",
+
+  "errorPathOutput": "路径: %s",
+  "errorIndexOutput": "索引: #%zu",
+  "errorHexOutput": "错误: 0x%08x",
+
+  "errorMetadata": "元数据错误",
+  "errorMetadataRead": "无法读取 `meta.json`",
+  "errorMetadataMalformed": "格式错误 `meta.json`",
+  "errorMetadataMissingName": "丢失 payload “名称”属性",
+  "errorMetadataMissingFilename": "丢失 payload “文件名”属性",
+  "errorMetadataNullName": "空的 payload “名称”属性",
+  "errorMetadataMissingPayloadFile": "未能找到 payload",
+
+  "errorNoPayloads": "没有可用的 payload :(",
+
+  "errorShellcodeOpen": "无法打开: %s",
+  "errorShellcodeMmap": "未能将 payload 映射至内存",
+  "errorShellcodeMprotect": "未能保护已映射至内存的 payload",
+  "errorShellcodeMunmap": "取消 payload 内存映射失败",
+
+  "creditsText": "mikiya@91wii"
+}
