@@ -27,9 +27,9 @@
   "errorMetadata": "元数据错误",
   "errorMetadataRead": "无法读取 `meta.json`",
   "errorMetadataMalformed": "`meta.json` 格式错误",
-  "errorMetadataMissingName": "丢失 payload “名称”属性",
-  "errorMetadataMissingFilename": "丢失 payload “文件名”属性",
-  "errorMetadataNullName": "空的 payload “名称”属性",
+  "errorMetadataMissingName": "payload “名称”属性丢失",
+  "errorMetadataMissingFilename": "payload “文件名”属性丢失",
+  "errorMetadataNullName": "payload “名称”属性为空",
   "errorMetadataMissingPayloadFile": "未能找到 payload",
 
   "errorNoPayloads": "没有可用的 payload :(",
