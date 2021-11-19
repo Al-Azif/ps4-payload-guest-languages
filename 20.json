@@ -1,0 +1,53 @@
+{
+  // Page titles
+  "mainTitle": "Payload Guest",
+  "creditsTitle": "Créditos",
+
+  // Loading ticks
+  "loadingTick1": "Cargando.",
+  "loadingTick2": "Cargando..",
+  "loadingTick3": "Cargando...",
+
+  // Button Labels
+  "ok": "Aceptar",
+  "select": "Seleccionar",
+  "refresh": "Refrescar",
+  "credits": "Créditos",
+  "return": "Regresar",
+
+  // Page indicator
+  "pageIndicator": "Página %i / %i",
+
+  // Fatal Errors when starting the application
+  "errorFatal": " ERROR FATAL!",
+  "errorCloseApplication": "Por favor, cierre la aplicación.",
+  "errorLoadLibjbc": "No se pudo cargar libjbc.prx",
+  "errorInitializeLibjbc": "No se pudo inicializar libjbc",
+  "errorJailbreak": "No se pudo ejecutar el jailbreak",
+
+  // General usage for error messages
+  "errorPathOutput": "Ruta: %s",
+  "errorIndexOutput": "Índice: #%zu",
+  "errorHexOutput": "Error: 0x%08x",
+
+  // Errors when parsing "meta.json"
+  "errorMetadata": "Error de metadatos",
+  "errorMetadataRead": "No se pudo leer `meta.json`",
+  "errorMetadataMalformed": "Formato del archivo `meta.json` incorrecto",
+  "errorMetadataMissingName": "Falta el nombre del payload",
+  "errorMetadataMissingFilename": "Falta el nombre del archivo del payload",
+  "errorMetadataNullName": "Nombre del payload NULL",
+  "errorMetadataMissingPayloadFile": "No se encontró el payload",
+
+  // Post parsing errors
+  "errorNoPayloads": "No hay payloads disponibles :(",
+
+  // Errors when launching payloads
+  "errorShellcodeOpen": "No se pudo abrir: %s",
+  "errorShellcodeMmap": "No se pudo aplicar mmap en el payload",
+  "errorShellcodeMprotect": "No se pudo aplicar mprotect en el payload",
+  "errorShellcodeMunmap": "No se pudo aplicar munmap en el payload",
+
+  // Credits text
+  "creditsText": ""
+}
