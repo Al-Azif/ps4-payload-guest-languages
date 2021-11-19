@@ -27,4 +27,4 @@
 | 22.json | French (Canada)          |
 
 
-Note: Until the 1.00 release the necessary strings are subject to change, only English (`01.json`/`18.json`) will be kept up to date. The community that "need" another language will be expected to submit translations
+Note: Until the 1.00 release the necessary strings are subject to change, only English (`01.json`/`18.json`) will be kept up to date. The community that "needs" another language will be expected to submit translations
