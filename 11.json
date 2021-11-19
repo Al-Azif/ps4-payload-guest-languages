@@ -19,7 +19,7 @@
 
   
   "errorFatal": "严重错误!",                             
-  "errorCloseApplication": "请选择一个应用.", 
+  "errorCloseApplication": "请关闭应用.", 
   "errorLoadLibjbc": "无法加载 libjbc.prx",           
   "errorInitializeLibjbc": "无法初始化 libjbc",   
   "errorJailbreak": "无法越狱",                  
