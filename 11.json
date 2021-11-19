@@ -36,7 +36,7 @@
 
   "errorShellcodeOpen": "无法打开: %s",
   "errorShellcodeMmap": "未能将 payload 映射至内存",
-  "errorShellcodeMprotect": "未能保护已映射至内存的 payload",
+  "errorShellcodeMprotect": "未能保护已映射的内存",
   "errorShellcodeMunmap": "取消 payload 内存映射失败",
 
   "creditsText": "mikiya@91wii"
