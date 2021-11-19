@@ -1,0 +1,43 @@
+{
+  "mainTitle": "Payload Guest",
+  "creditsTitle": "Autorzy",
+
+  "loadingTick1": "Ładowanie.",  
+  "loadingTick2": "Ładowanie..",
+  "loadingTick3": "Ładowanie...",
+
+  "ok": "Ok",
+  "select": "Wybierz",
+  "refresh": "Odśwież",
+  "credits": "Autorzy",
+  "return": "Wstecz",
+
+  "pageIndicator": "Strona %i / %i",
+
+  "errorFatal": "BŁĄD KRYTYCZNY!",
+  "errorCloseApplication": "Proszę zamknąć aplikację.",
+  "errorLoadLibjbc": "Nie można załadować libjbc.prx",
+  "errorInitializeLibjbc": "Nie można zainicjować libjbc",
+  "errorJailbreak": "Nie można wykonać jailbreaka",
+
+  "errorPathOutput": "Ścieżka: %s",
+  "errorIndexOutput": "Indeks: #%zu", 
+  "errorHexOutput": "Błąd: 0x%08x",
+
+  "errorMetadata": "Błąd Metadanych",
+  "errorMetadataRead": "Nie można odczytać `meta.json`",
+  "errorMetadataMalformed": "Zniekształcony `meta.json`",
+  "errorMetadataMissingName": "Brak nazwy payloada",
+  "errorMetadataMissingFilename": "Brak nazwy pliku payloada",
+  "errorMetadataNullName": "Nazwa payloada zawiera NULL",
+  "errorMetadataMissingPayloadFile": "Nie można odnaleźć payloada",
+
+  "errorNoPayloads": "Brak dostępnych payloadów :(",
+
+  "errorShellcodeOpen": "Nie można otworzyć: %s",
+  "errorShellcodeMmap": "Nie można wykonać mmap na payloadzie",
+  "errorShellcodeMprotect": "Nie można wykonać mprotect na payloadzie",
+  "errorShellcodeMunmap": "Nie udało się wykonać munmap na payloadzie",
+
+  "creditsText": ""
+}
