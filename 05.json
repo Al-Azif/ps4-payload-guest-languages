@@ -32,12 +32,12 @@
   "errorMetadataNullName": "Un Nome di un payload risulta NULL",
   "errorMetadataMissingPayloadFile": "Impossibile trovare un payload",
 
-  "errorNoPayloads": "Non sono presenti payloads disponibili :(",
+  "errorNoPayloads": "Nessun payload disponibile :(",
 
   "errorShellcodeOpen": "Impossibile aprire: %s",
   "errorShellcodeMmap": "Unable to mmap payload",
   "errorShellcodeMprotect": "Unable to mprotect payload",
   "errorShellcodeMunmap": "Failed to munmap payload",
 
-  "creditsText": ""
+  "creditsText": "Victorbry99"
 }
