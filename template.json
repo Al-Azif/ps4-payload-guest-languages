@@ -1,53 +1,42 @@
 {
-  // Page titles
-  "mainTitle": "Payload Guest", // The title on the main screen
-  "creditsTitle": "Credits",    // The title on the credits screen
+  "mainTitle": "Lanceur Payload",
+  "creditsTitle": "Crédits",
 
-  // Loading ticks
-  "loadingTick1": "Loading.",   // Used when refreshing the payloads will used tick1, then 2, then 3, repeating
-  "loadingTick2": "Loading..",  // Used when refreshing the payloads will used tick1, then 2, then 3, repeating
-  "loadingTick3": "Loading...", // Used when refreshing the payloads will used tick1, then 2, then 3, repeating
+  "loadingTick1": "Chargement.",
+  "loadingTick2": "Chargement..",
+  "loadingTick3": "Chargement...",
 
-  // Button Labels
-  "ok": "Ok",           // The "Ok" button prompt to close errors
-  "select": "Select",   // The "Select" button prompt to use on the main screen for the cross button
-  "refresh": "Refresh", // The "Refresh" button prompt to use on the main screen for the square button
-  "credits": "Credits", // The "Credits" button prompt to use on the main screen for the triangle button
-  "return": "Return",   // The "Return" button prompt to use on the credits screen for the the circle button
+  "ok": "Ok",
+  "select": "Valider",
+  "refresh": "Rafraîchir",
+  "credits": "Crédits",
+  "return": "Retour",
 
-  // Page indicator
-  "pageIndicator": "Page %i / %i", // Used for page numbering... the first %i used will be the current page, the second %i will be the total number of pages... if you're language needs this reversed make it known
+  "pageIndicator": "Page %i / %i", 
 
-  // Fatal Errors when starting the application
-  "errorFatal": "FATAL ERROR!",                             // Title of the fatal error screen
-  "errorCloseApplication": "Please close the Application.", // Notice for the user to close the application due to a fatal error
-  "errorLoadLibjbc": "Unable to load libjbc.prx",           // Error if PRX file could not be loaded
-  "errorInitializeLibjbc": "Unable to initialize libjbc",   // Error is functions from the PRX could not be initialized
-  "errorJailbreak": "Unable to jailbreak",                  // Error if jailbreaking failed
+  "errorFatal": "ERREUR FATALE!",
+  "errorCloseApplication": "Veuillez fermer l'application.",
+  "errorLoadLibjbc": "Impossible de charger libjbc.prx",
+  "errorInitializeLibjbc": "Impossible d'initialiser libjbc",
+  "errorJailbreak": "Jailbreak impossible",
 
-  // General usage for error messages
-  "errorPathOutput": "Path: %s",     // %s represents the path to the file with the error
-  "errorIndexOutput": "Index: #%zu", // %zu represents the index number of the metadata with an issue
-  "errorHexOutput": "Error: 0x%08x", // 0x%08x represents the hex value for the specific error
+  "errorPathOutput": "Chemin: %s",
+  "errorIndexOutput": "Index: #%zu",
+  "errorHexOutput": "Erreur: 0x%08x",
 
-  // Errors when parsing "meta.json"
-  "errorMetadata": "Metadata Error",                           // The "header" to get used for metadata errors
-  "errorMetadataRead": "Could not read `meta.json`",           // If the meta.json file could not be opened/read
-  "errorMetadataMalformed": "Malformed `meta.json`",           // If the meta.json file could not be parsed correctly
-  "errorMetadataMissingName": "Missing payload name",          // If a meta entry does not have a "name" attribute
-  "errorMetadataMissingFilename": "Missing payload filename",  // If a meta entry does not have a "filename" attribute
-  "errorMetadataNullName": "NULL payload name",                // If a meta entry's "name" attribute is a NULL value
-  "errorMetadataMissingPayloadFile": "Unable to find payload", // If a meta entry's "filename" attribute file is not at the specified location
+  "errorMetadata": "Erreur de métadonnées",
+  "errorMetadataRead": "Impossible de lire `meta.json`",
+  "errorMetadataMalformed": "`meta.json` erroné",
+  "errorMetadataMissingName": "Nom du payload manquant",
+  "errorMetadataMissingFilename": "Nom du fichier du payload manquant",
+  "errorMetadataNullName": "Erreur du nom du payload",
+  "errorMetadataMissingPayloadFile": "Impossible de trouver le payload",
+  "errorNoPayloads": "Aucun payload disponible :(",
 
-  // Post parsing errors
-  "errorNoPayloads": "No payloads available :(", // The error displayed when there are no available payloads
+  "errorShellcodeOpen": "Impossible d'ouvrir: %s",
+  "errorShellcodeMmap": "Impossible de mmap le payload",
+  "errorShellcodeMprotect": "Impossible de mprotect le payload",
+  "errorShellcodeMunmap": "Échec munmap payload",
 
-  // Errors when launching payloads
-  "errorShellcodeOpen": "Unable to open: %s",             // Error when unable to open/read a payload file for launching, %s represents the path to the payload file that was attempted
-  "errorShellcodeMmap": "Unable to mmap payload",         // Error when unable to mmap space
-  "errorShellcodeMprotect": "Unable to mprotect payload", // Error when unable to mprotect the mmap'd space
-  "errorShellcodeMunmap": "Failed to munmap payload",     // Error when unable to munmap the mmap'd space
-
-  // Credits text
-  "creditsText": ""         // The actual credits displayed on the credits page... this may just get baked into the code
+  "creditsText": "Chronoss"
 }
