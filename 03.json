@@ -35,9 +35,9 @@
   "errorNoPayloads": "No hay Payloads disponibles :(",
 
   "errorShellcodeOpen": "No se puede abrir: %s",
-  "errorShellcodeMmap": "No se puede utilizar el Payload mmap",
-  "errorShellcodeMprotect": "No se puede utilizar Payload mprotect",
-  "errorShellcodeMunmap": "Falló el Payload munmap",
+  "errorShellcodeMmap": "No se pudo aplicar mmap en el payload",
+  "errorShellcodeMprotect": "No se pudo aplicar mprotect en el payload",
+  "errorShellcodeMunmap": "No se pudo aplicar munmap en el payload",
 
   "creditsText": "mr0ta"
 }
