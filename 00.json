@@ -1,0 +1,53 @@
+{
+  // Page titles
+  "mainTitle": "Payload Guest", // The title on the main screen
+  "creditsTitle": "クレジット",    // The title on the credits screen
+
+  // Loading ticks
+  "loadingTick1": "読み込み中.",   // Used when refreshing the payloads will used tick1, then 2, then 3, repeating
+  "loadingTick2": "読み込み中..",  // Used when refreshing the payloads will used tick1, then 2, then 3, repeating
+  "loadingTick3": "読み込み中...", // Used when refreshing the payloads will used tick1, then 2, then 3, repeating
+
+  // Button Labels
+  "ok": "Ok",           // The "Ok" button prompt to close errors
+  "select": "セレクト",   // The "Select" button prompt to use on the main screen for the cross button
+  "refresh": "リフレッシュ", // The "Refresh" button prompt to use on the main screen for the square button
+  "credits": "クレジット", // The "Credits" button prompt to use on the main screen for the triangle button
+  "return": "戻る",   // The "Return" button prompt to use on the credits screen for the the circle button
+
+  // Page indicator
+  "pageIndicator": "ページ %i / %i", // Used for page numbering... the first %i used will be the current page, the second %i will be the total number of pages... if you're language needs this reversed make it known
+
+  // Fatal Errors when starting the application
+  "errorFatal": "深刻なエラー!",                             // Title of the fatal error screen
+  "errorCloseApplication": "アプリケーションを閉じてください。", // Notice for the user to close the application due to a fatal error
+  "errorLoadLibjbc": "libjbc.prxを読み込めません。",           // Error if PRX file could not be loaded
+  "errorInitializeLibjbc": "libjbcを初期化できません。",   // Error is functions from the PRX could not be initialized
+  "errorJailbreak": "脱獄できません。",                  // Error if jailbreaking failed
+
+  // General usage for error messages
+  "errorPathOutput": "パス: %s",     // %s represents the path to the file with the error
+  "errorIndexOutput": "インデックス: #%zu", // %zu represents the index number of the metadata with an issue
+  "errorHexOutput": "エラー: 0x%08x", // 0x%08x represents the hex value for the specific error
+
+  // Errors when parsing "meta.json"
+  "errorMetadata": "メタデータエラー",                           // The "header" to get used for metadata errors
+  "errorMetadataRead": "`meta.json`を読み取れませんでした。",           // If the meta.json file could not be opened/read
+  "errorMetadataMalformed": "不正な形式の `meta.json`",           // If the meta.json file could not be parsed correctly
+  "errorMetadataMissingName": "ペイロード名がありません",          // If a meta entry does not have a "name" attribute
+  "errorMetadataMissingFilename": "ペイロードファイル名がありません",  // If a meta entry does not have a "filename" attribute
+  "errorMetadataNullName": "NULLペイロード名",                // If a meta entry's "name" attribute is a NULL value
+  "errorMetadataMissingPayloadFile": "ペイロードが見つかりません", // If a meta entry's "filename" attribute file is not at the specified location
+
+  // Post parsing errors
+  "errorNoPayloads": "利用可能なペイロードがありません :(", // The error displayed when there are no available payloads
+
+  // Errors when launching payloads
+  "errorShellcodeOpen": "開けません: %s",             // Error when unable to open/read a payload file for launching, %s represents the path to the payload file that was attempted
+  "errorShellcodeMmap": "ペイロードをmmapできません",         // Error when unable to mmap space
+  "errorShellcodeMprotect": "ペイロードを保護できません", // Error when unable to mprotect the mmap'd space
+  "errorShellcodeMunmap": "ペイロードのmunmapに失敗しました",     // Error when unable to munmap the mmap'd space
+
+  // Credits text
+  "creditsText": ""         // The actual credits displayed on the credits page... this may just get baked into the code
+}
