@@ -1,0 +1,53 @@
+{
+  // Page titles
+  "mainTitle": "Payload Guest", // The title on the main screen
+  "creditsTitle": "Autori",    // The title on the credits screen
+
+  // Loading ticks
+  "loadingTick1": "Načítava sa.",   // Used when refreshing the payloads will used tick1, then 2, then 3, repeating
+  "loadingTick2": "Načítava sa..",  // Used when refreshing the payloads will used tick1, then 2, then 3, repeating
+  "loadingTick3": "Načítava sa...", // Used when refreshing the payloads will used tick1, then 2, then 3, repeating
+
+  // Button Labels
+  "ok": "Ok",           // The "Ok" button prompt to close errors
+  "select": "Vybrať",   // The "Select" button prompt to use on the main screen for the cross button
+  "refresh": "Obnoviť", // The "Refresh" button prompt to use on the main screen for the square button
+  "credits": "Autori",  // The "Credits" button prompt to use on the main screen for the triangle button
+  "return": "Späť",     // The "Return" button prompt to use on the credits screen for the the circle button
+
+  // Page indicator
+  "pageIndicator": "Strana %i / %i", // Used for page numbering... the first %i used will be the current page, the second %i will be the total number of pages... if you're language needs this reversed make it known
+
+  // Fatal Errors when starting the application
+  "errorFatal": "FATÁLNA CHYBA!",                                 // Title of the fatal error screen
+  "errorCloseApplication": "Prosím, uzavrite aplikáciu.",         // Notice for the user to close the application due to a fatal error
+  "errorLoadLibjbc": "Nepodarilo sa načítať libjbc.prx",          // Error if PRX file could not be loaded
+  "errorInitializeLibjbc": "Nepodarilo sa inicializovať libjbc",  // Error is functions from the PRX could not be initialized
+  "errorJailbreak": "Nepodarilo sa vykonať jailbreak",            // Error if jailbreaking failed
+
+  // General usage for error messages
+  "errorPathOutput": "Cesta: %s",     // %s represents the path to the file with the error
+  "errorIndexOutput": "Index: #%zu",  // %zu represents the index number of the metadata with an issue
+  "errorHexOutput": "Chyba: 0x%08x",  // 0x%08x represents the hex value for the specific error
+
+  // Errors when parsing "meta.json"
+  "errorMetadata": "Chyba Metadát",                                 // The "header" to get used for metadata errors
+  "errorMetadataRead": "Nepodarilo sa prečítať `meta.json`",        // If the meta.json file could not be opened/read
+  "errorMetadataMalformed": "Poškodený `meta.json`",                // If the meta.json file could not be parsed correctly
+  "errorMetadataMissingName": "Chýba názov payloadu",               // If a meta entry does not have a "name" attribute
+  "errorMetadataMissingFilename": "Chýba názov súboru payloadu",    // If a meta entry does not have a "filename" attribute
+  "errorMetadataNullName": "Payload nemá názov (NULL)",             // If a meta entry's "name" attribute is a NULL value
+  "errorMetadataMissingPayloadFile": "Payload sa nepodarilo nájsť", // If a meta entry's "filename" attribute file is not at the specified location
+
+  // Post parsing errors
+  "errorNoPayloads": "Žiadny payload sa nenašiel :(",     // The error displayed when there are no available payloads
+
+  // Errors when launching payloads
+  "errorShellcodeOpen": "Nepodarilo sa otvoriť: %s",                        // Error when unable to open/read a payload file for launching, %s represents the path to the payload file that was attempted
+  "errorShellcodeMmap": "Nepodarilo sa namapovať payload (mmap)",           // Error when unable to mmap space
+  "errorShellcodeMprotect": "Nepodarilo sa zabezpečiť payload (mprotect)",  // Error when unable to mprotect the mmap'd space
+  "errorShellcodeMunmap": "Nepodarilo sa namapovať payload (munmap)",       // Error when unable to munmap the mmap'd space
+
+  // Credits text
+  "creditsText": ""         // The actual credits displayed on the credits page... this may just get baked into the code
+}
