@@ -1,5 +1,5 @@
 {
-  "unknownKey": "",
+  "unknownKey": "[TEXTO SIN TRADUCCIÓN]",
 
   "mainTitle": "Payload Guest",
   "creditsTitle": "Créditos",
@@ -16,7 +16,7 @@
 
   "pageIndicator": "Página %i / %i",
 
-  "errorFatal": " ERROR FATAL!",
+  "errorFatal": "¡ERROR FATAL!",
   "errorCloseApplication": "Por favor, cierre la aplicación.",
   "errorLoadLibjbc": "No se pudo cargar libjbc.prx",
   "errorInitializeLibjbc": "No se pudo inicializar libjbc",
@@ -36,12 +36,12 @@
 
   "errorNoPayloads": "No hay payloads disponibles :(",
 
-  "errorSendPayloadOpen": "",
-  "errorSendPayloadBuffer": "",
-  "errorSendPayloadRead": "",
-  "errorSendPayloadCreateSocket": "",
-  "errorSendPayloadConnect": "",
-  "errorSendPayloadSend": "",
+  "errorSendPayloadOpen": "No se pudo abrir el payload",
+  "errorSendPayloadBuffer": "No se pudo asignar el buffer para el payload",
+  "errorSendPayloadRead": "No se pudo leer el payload en el buffer",
+  "errorSendPayloadCreateSocket": "No se pudo crear el socket",
+  "errorSendPayloadConnect": "No se pudo conectar al servidor",
+  "errorSendPayloadSend": "No se pudo enviar el payload",
 
   "errorShellcodeOpen": "No se pudo abrir: %s",
   "errorShellcodeMmap": "No se pudo aplicar mmap en el payload",
