@@ -42,14 +42,6 @@
   // Post parsing errors
   "errorNoPayloads": "No payloads available :(", // The error displayed when there are no available payloads
   
-  // Errors when sending payloads
-  "errorSendPayloadOpen": "Unable to open payload",              // If the "SendPayload" function fails to open the payload file
-  "errorSendPayloadBuffer": "Unable to allocate payload buffer", // If allocating the memory to store the payload fails
-  "errorSendPayloadRead": "Unable to read payload into buffer",  // If reading the payload into the allocated memory fails
-  "errorSendPayloadCreateSocket": "Unable to create socket",     // If creating the socket file descriptor fails
-  "errorSendPayloadConnect": "Unable to connect to server",      // If trying to connect to the server fails (Likely no response)
-  "errorSendPayloadSend": "Unable to send payload",              // If it can connect but sending the payload fails
-  
   // Errors when launching payloads
   "errorShellcodeOpen": "Unable to open: %s",             // Error when unable to open/read a payload file for launching, %s represents the path to the payload file that was attempted
   "errorShellcodeMmap": "Unable to mmap payload",         // Error when unable to mmap space
