@@ -1,0 +1,43 @@
+{
+  "mainTitle": "Payload Guest",
+  "creditsTitle": "Autorzy",
+
+  "loadingTick1": "Wczytywanie.",  
+  "loadingTick2": "Wczytywanie..",
+  "loadingTick3": "Wczytywanie...",
+
+  "ok": "Ok",
+  "select": "Wybierz",
+  "refresh": "Odśwież",
+  "credits": "Autorzy",
+  "return": "Wstecz",
+
+  "pageIndicator": "Strona %i / %i",
+
+  "errorFatal": "BŁĄD KRYTYCZNY!",
+  "errorCloseApplication": "Proszę zamknąć aplikację.",
+  "errorLoadLibjbc": "Nie można załadować libjbc.prx",
+  "errorInitializeLibjbc": "Nie można zainicjować libjbc",
+  "errorJailbreak": "Nie można wykonać jailbreaka",
+
+  "errorPathOutput": "Ścieżka: %s",
+  "errorIndexOutput": "Indeks: #%zu", 
+  "errorHexOutput": "Błąd: 0x%08x",
+
+  "errorMetadata": "Błąd Metadanych",
+  "errorMetadataRead": "Błąd odczytu `meta.json`",
+  "errorMetadataMalformed": "Nieprawidłowa zawartość `meta.json`",
+  "errorMetadataMissingName": "Brak nazwy payloada",
+  "errorMetadataMissingFilename": "Brak nazwy pliku payloada",
+  "errorMetadataNullName": "Nazwa payloadu jest pusta lub zawiera wartość NULL",
+  "errorMetadataMissingPayloadFile": "Nie można odnaleźć payloada",
+
+  "errorNoPayloads": "Brak dostępnych payloadów :(",
+
+  "errorShellcodeOpen": "Nie można otworzyć: %s",
+  "errorShellcodeMmap": "Nie można zmapować payloada",
+  "errorShellcodeMprotect": "Nie można zabezpieczyć pamięci dla mapowania payloada",
+  "errorShellcodeMunmap": "Błąd przy usunięciu mapowania payloada",
+
+  "creditsText": ""
+}
