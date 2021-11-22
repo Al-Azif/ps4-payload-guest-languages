@@ -44,9 +44,9 @@
   "errorSendPayloadSend": "Impossibile inviare il payload",
 
   "errorShellcodeOpen": "Impossibile aprire: %s",
-  "errorShellcodeMmap": "Unable to mmap payload",
-  "errorShellcodeMprotect": "Unable to mprotect payload",
-  "errorShellcodeMunmap": "Failed to munmap payload",
+  "errorShellcodeMmap": "Impossibile effettuare un mmap per il payload",
+  "errorShellcodeMprotect": "Impossibile effettuare un mprotect per il payload",
+  "errorShellcodeMunmap": "Impossibile effettuare un munmap per il payload",
 
   "creditsText": ""
 }
