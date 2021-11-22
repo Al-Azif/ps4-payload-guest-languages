@@ -37,7 +37,7 @@
   "errorNoPayloads": "Brak dostępnych payloadów :(",
 
   "errorSendPayloadOpen": "Błąd odczytu payloadu",              
-  "errorSendPayloadBuffer": " Nie mozna zaalokowac bufora payloadu",
+  "errorSendPayloadBuffer": " Nie mozna zaalokować bufora payloadu",
   "errorSendPayloadRead": "Nie można wczytać payloadu do bufora", 
   "errorSendPayloadCreateSocket": "Nie można stworzyć socketu", 
   "errorSendPayloadConnect": "Nie można połączyć się z serwerem",
