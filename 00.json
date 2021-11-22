@@ -1,5 +1,5 @@
 {
-  "unknownKey": "",
+  "unknownKey": "[翻訳されていないテキスト]",
 
   "mainTitle": "Payload Guest",
   "creditsTitle": "クレジット",
@@ -36,12 +36,12 @@
 
   "errorNoPayloads": "利用可能なペイロードがありません :(",
 
-  "errorSendPayloadOpen": "",
-  "errorSendPayloadBuffer": "",
-  "errorSendPayloadRead": "",
-  "errorSendPayloadCreateSocket": "",
-  "errorSendPayloadConnect": "",
-  "errorSendPayloadSend": "",
+  "errorSendPayloadOpen": "ペイロードを開くことができません",
+  "errorSendPayloadBuffer": "ペイロードバッファを割り当てることができません",
+  "errorSendPayloadRead": "ペイロードをバッファに読み込めません",
+  "errorSendPayloadCreateSocket": "ソケットを作成できません",
+  "errorSendPayloadConnect": "サーバーに接続できません",
+  "errorSendPayloadSend": "ペイロードを送信できません",
 
   "errorShellcodeOpen": "開けません: %s",
   "errorShellcodeMmap": "ペイロードをmmapできません",
