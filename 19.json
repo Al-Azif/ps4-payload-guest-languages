@@ -36,12 +36,12 @@
 
   "errorNoPayloads": "Kullanılabilir Payload bulunamadı :( ",
 
-  "errorSendPayloadOpen": "",
-  "errorSendPayloadBuffer": "",
-  "errorSendPayloadRead": "",
-  "errorSendPayloadCreateSocket": "",
-  "errorSendPayloadConnect": "",
-  "errorSendPayloadSend": "",
+  "errorSendPayloadOpen": "Payload açılamıyor",
+  "errorSendPayloadBuffer": "Payload belleğe yüklenemiyor",
+  "errorSendPayloadRead": "Payload bellekten okunamıyor",
+  "errorSendPayloadCreateSocket": "Soket oluşturulamıyor",
+  "errorSendPayloadConnect": "Servera bağlanılamıyor",
+  "errorSendPayloadSend": "Payload karşıya gönderilemiyor",
 
   "errorShellcodeOpen": "Açılamıyor: %s",
   "errorShellcodeMmap": "Payload mmap edilemiyor.",
