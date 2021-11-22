@@ -1,0 +1,52 @@
+{
+  "unknownKey": "",
+
+  "mainTitle": "Payload gost",
+  "creditsTitle": "Zasluge",
+
+  "loadingTick1": "Učitavanje.",
+  "loadingTick2": "Učitavanje..",
+  "loadingTick3": "Učitavanje...",
+
+  "ok": "U redu",
+  "select": "Odabir",
+  "refresh": "Osvježi",
+  "credits": "Zasluge",
+  "return": "Povratak",
+
+  "pageIndicator": "Stranica %i / %i",
+
+  "errorFatal": "FATALNA POGREŠKA!",
+  "errorCloseApplication": "Molimo zatvorite aplikaciju",
+  "errorLoadLibjbc": "Nije moguće učitati libjbc.prx",
+  "errorInitializeLibjbc": "Nije moguće pokrenuti libjbc",
+  "errorJailbreak": "Jailbreak nije uspio",
+
+  "errorPathOutput": "Staza: %s",
+  "errorIndexOutput": "Indeks: #%zu",
+  "errorHexOutput": "Greška: 0x%08x",
+
+  "errorMetadata": "Greška metapodataka",
+  "errorMetadataRead": "Nije moguće učitati `meta.json`",
+  "errorMetadataMalformed": "Krivi format datoteke `meta.json`",
+  "errorMetadataMissingName": "Payloadu nedostaje ime",
+  "errorMetadataMissingFilename": "Payloadu nedostaje ime datoteke",
+  "errorMetadataNullName": "Ime payloada je NULL",
+  "errorMetadataMissingPayloadFile": "Nije moguće pronaći payload na zadanoj stazi",
+
+  "errorNoPayloads": "Nema raspoloživog payloada :(",
+
+  "errorSendPayloadOpen": "Nije moguće otvoriti payload",
+  "errorSendPayloadBuffer": "Nije moguće locirati buffer payloada",
+  "errorSendPayloadRead": "Nije moguće učitati payload u buffer",
+  "errorSendPayloadCreateSocket": "Nije moguće kreirati socket",
+  "errorSendPayloadConnect": "Spajanje na server nije moguće",
+  "errorSendPayloadSend": "Nije moguće poslati payload",
+
+  "errorShellcodeOpen": "Nije moguće otvoriti: %s",
+  "errorShellcodeMmap": "Nije moguć mmap payloada",
+  "errorShellcodeMprotect": "Nije moguć mprotect payloada",
+  "errorShellcodeMunmap": "Nije uspio munmap payloada",
+
+  "creditsText": ""
+}
