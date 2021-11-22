@@ -1,0 +1,42 @@
+{
+  "mainTitle": "Payload Invités",
+  "creditsTitle": "Crédits",
+
+  "loadingTick1": "Chargement.",
+  "loadingTick2": "Chargement..",
+  "loadingTick3": "Chargement...",
+
+  "ok": "Ok",
+  "select": "Choisir",
+  "refresh": "Rafraichir",
+  "credits": "Crédits",
+  "return": "Retour",
+
+  "pageIndicator": "Page %i / %i", 
+
+  "errorFatal": "ERREUR FATALE!",
+  "errorCloseApplication": "Veuillez fermer l'application.",
+  "errorLoadLibjbc": "Incapable de charger libjbc.prx",
+  "errorInitializeLibjbc": "incapable d'initialiser libjbc",
+  "errorJailbreak": "Jailbreak impossible",
+
+  "errorPathOutput": "Chemin: %s",
+  "errorIndexOutput": "Index: #%zu",
+  "errorHexOutput": "Erreur: 0x%08x",
+
+  "errorMetadata": "Erreur de métadonnées",
+  "errorMetadataRead": "Impossible de lire `meta.json`",
+  "errorMetadataMalformed": "`meta.json` malformé",
+  "errorMetadataMissingName": "Nom du payload manquant",
+  "errorMetadataMissingFilename": "Nom du fichier du payload manquant",
+  "errorMetadataNullName": "Nom du payload NULL",
+  "errorMetadataMissingPayloadFile": "Incapable de trouver le payload",
+  "errorNoPayloads": "Aucun payload disponible :(",
+
+  "errorShellcodeOpen": "Incapable d'ouvrir: %s",
+  "errorShellcodeMmap": "Incapable de mmap payload",
+  "errorShellcodeMprotect": "Incapable de mprotect payload",
+  "errorShellcodeMunmap": "Échec munmap payload",
+
+  "creditsText": "Nazky"
+}
