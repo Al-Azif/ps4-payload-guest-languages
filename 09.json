@@ -1,53 +1,52 @@
 {
-  // Page titles
-  "mainTitle": "페이로드 게스트", // The title on the main screen
-  "creditsTitle": "크레딧",    // The title on the credits screen
+  "unknownKey": "[번역되어 있지 않은 텍스트",
 
-  // Loading ticks
-  "loadingTick1": "로딩중.",   // Used when refreshing the payloads will used tick1, then 2, then 3, repeating
-  "loadingTick2": "로딩중..",  // Used when refreshing the payloads will used tick1, then 2, then 3, repeating
-  "loadingTick3": "로딩중...", // Used when refreshing the payloads will used tick1, then 2, then 3, repeating
+  "mainTitle": "페이로드 게스트",
+  "creditsTitle": "크레딧",
 
-  // Button Labels
-  "ok": "확정",           // The "Ok" button prompt to close errors
-  "select": "선택",   // The "Select" button prompt to use on the main screen for the cross button
-  "refresh": "새로고침", // The "Refresh" button prompt to use on the main screen for the square button
-  "credits": "크레딧", // The "Credits" button prompt to use on the main screen for the triangle button
-  "return": "돌아가기",   // The "Return" button prompt to use on the credits screen for the the circle button
+  "loadingTick1": "로딩중.",
+  "loadingTick2": "로딩중..",
+  "loadingTick3": "로딩중...",
 
-  // Page indicator
-  "pageIndicator": "페이지 %i / %i", // Used for page numbering... the first %i used will be the current page, the second %i will be the total number of pages... if you're language needs this reversed make it known
+  "ok": "확정",
+  "select": "선택",
+  "refresh": "새로고침",
+  "credits": "크레딧",
+  "return": "돌아가기",
 
-  // Fatal Errors when starting the application
-  "errorFatal": "치명적 에러!",                             // Title of the fatal error screen
-  "errorCloseApplication": "어플리케이션을 닫으십시오.", // Notice for the user to close the application due to a fatal error
-  "errorLoadLibjbc": "libjbc.prx 불러올 수 없음",           // Error if PRX file could not be loaded
-  "errorInitializeLibjbc": "libjbc 초기화 할 수 없음",   // Error is functions from the PRX could not be initialized
-  "errorJailbreak": "jailbreak 불가",                  // Error if jailbreaking failed
+  "pageIndicator": "페이지 %i / %i",
 
-  // General usage for error messages
-  "errorPathOutput": "경로: %s",     // %s represents the path to the file with the error
-  "errorIndexOutput": "인덱스: #%zu", // %zu represents the index number of the metadata with an issue
-  "errorHexOutput": "에러: 0x%08x", // 0x%08x represents the hex value for the specific error
+  "errorFatal": "치명적 에러!",
+  "errorCloseApplication": "어플리케이션을 닫으십시오.",
+  "errorLoadLibjbc": "libjbc.prx 불러올 수 없음",
+  "errorInitializeLibjbc": "libjbc 초기화 할 수 없음",
+  "errorJailbreak": "jailbreak 불가",
 
-  // Errors when parsing "meta.json"
-  "errorMetadata": "Metadata 에러",                           // The "header" to get used for metadata errors
-  "errorMetadataRead": "meta.json` 읽을 수 없음`",           // If the meta.json file could not be opened/read
-  "errorMetadataMalformed": "`meta.json`형식 에러",           // If the meta.json file could not be parsed correctly
-  "errorMetadataMissingName": "페이로드명 없음",          // If a meta entry does not have a "name" attribute
-  "errorMetadataMissingFilename": "페이로드 파일명 없음",  // If a meta entry does not have a "filename" attribute
-  "errorMetadataNullName": "NULL 페이로드명",                // If a meta entry's "name" attribute is a NULL value
-  "errorMetadataMissingPayloadFile": "페이로드를 찾을 수 없음", // If a meta entry's "filename" attribute file is not at the specified location
+  "errorPathOutput": "경로: %s",
+  "errorIndexOutput": "인덱스: #%zu",
+  "errorHexOutput": "에러: 0x%08x",
 
-  // Post parsing errors
-  "errorNoPayloads": "사용 가능한 페이로드 없음 :(", // The error displayed when there are no available payloads
+  "errorMetadata": "Metadata 에러",
+  "errorMetadataRead": "meta.json` 읽을 수 없음`",
+  "errorMetadataMalformed": "`meta.json`형식 에러",
+  "errorMetadataMissingName": "페이로드명 없음",
+  "errorMetadataMissingFilename": "페이로드 파일명 없음",
+  "errorMetadataNullName": "NULL 페이로드명",
+  "errorMetadataMissingPayloadFile": "페이로드를 찾을 수 없음",
 
-  // Errors when launching payloads
-  "errorShellcodeOpen": "열 수 없음: %s",             // Error when unable to open/read a payload file for launching, %s represents the path to the payload file that was attempted
-  "errorShellcodeMmap": "mmap 페이로드 불가",         // Error when unable to mmap space
-  "errorShellcodeMprotect": "mprotect 페이로드 불가", // Error when unable to mprotect the mmap'd space
-  "errorShellcodeMunmap": "munmap 페이로드 실패",     // Error when unable to munmap the mmap'd space
+  "errorNoPayloads": "사용 가능한 페이로드 없음 :(",
 
-  // Credits text
-  "creditsText": ""         // The actual credits displayed on the credits page... this may just get baked into the code
+  "errorSendPayloadOpen": "페이로드를 열 수 없음",
+  "errorSendPayloadBuffer": "페이로드 버퍼를 할당할 수 없음",
+  "errorSendPayloadRead": "페이로드 버퍼로 읽을 수 없음",
+  "errorSendPayloadCreateSocket": "소켓을 만들 수 없음",
+  "errorSendPayloadConnect": "서버에 접속할 수 없음",
+  "errorSendPayloadSend": "페이로드를 전송할 수 없음",
+
+  "errorShellcodeOpen": "열 수 없음: %s",
+  "errorShellcodeMmap": "mmap 페이로드 불가",
+  "errorShellcodeMprotect": "mprotect 페이로드 불가",
+  "errorShellcodeMunmap": "munmap 페이로드 실패",
+
+  "creditsText": ""
 }
