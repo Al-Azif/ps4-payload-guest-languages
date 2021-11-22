@@ -34,6 +34,13 @@
 
   "errorNoPayloads": "لا توجد payloads متاحة :(",
 
+  "errorSendPayloadOpen": "تعذر فتح payload",
+  "errorSendPayloadBuffer": "تعذر تخصيص التخزين المؤقت للـ payload",
+  "errorSendPayloadRead": "تعذر قراءة payload في التخزين المؤقت",
+  "errorSendPayloadCreateSocket": "تعذر إنشاء المقبس",
+  "errorSendPayloadConnect": "تعذر الاتصال بالخادم",
+  "errorSendPayloadSend": "تعذر إرسال payload",
+  
   "errorShellcodeOpen": "تعذر فتح: %s",
   "errorShellcodeMmap": "تعذر mmap payload",
   "errorShellcodeMprotect": "تعذر حماية payload",
