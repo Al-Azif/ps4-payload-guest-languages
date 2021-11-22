@@ -1,4 +1,6 @@
 {
+  "unknownKey": "",
+
   "mainTitle": "Payload Invités",
   "creditsTitle": "Crédits",
 
@@ -12,7 +14,7 @@
   "credits": "Crédits",
   "return": "Retour",
 
-  "pageIndicator": "Page %i / %i", 
+  "pageIndicator": "Page %i / %i",
 
   "errorFatal": "ERREUR FATALE!",
   "errorCloseApplication": "Veuillez fermer l'application.",
@@ -32,6 +34,13 @@
   "errorMetadataNullName": "Nom du payload NULL",
   "errorMetadataMissingPayloadFile": "Incapable de trouver le payload",
   "errorNoPayloads": "Aucun payload disponible :(",
+
+  "errorSendPayloadOpen": "",
+  "errorSendPayloadBuffer": "",
+  "errorSendPayloadRead": "",
+  "errorSendPayloadCreateSocket": "",
+  "errorSendPayloadConnect": "",
+  "errorSendPayloadSend": "",
 
   "errorShellcodeOpen": "Incapable d'ouvrir: %s",
   "errorShellcodeMmap": "Incapable de mmap payload",

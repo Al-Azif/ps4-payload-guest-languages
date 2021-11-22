@@ -1,4 +1,6 @@
 {
+  "unknownKey": "",
+
   "mainTitle": "Payload Misafiri",
   "creditsTitle": "Katkısı Olanlar",
 
@@ -33,6 +35,13 @@
   "errorMetadataMissingPayloadFile": "Payload bulunamadı.",
 
   "errorNoPayloads": "Kullanılabilir Payload bulunamadı :( ",
+
+  "errorSendPayloadOpen": "",
+  "errorSendPayloadBuffer": "",
+  "errorSendPayloadRead": "",
+  "errorSendPayloadCreateSocket": "",
+  "errorSendPayloadConnect": "",
+  "errorSendPayloadSend": "",
 
   "errorShellcodeOpen": "Açılamıyor: %s",
   "errorShellcodeMmap": "Payload mmap edilemiyor.",

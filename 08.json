@@ -1,4 +1,6 @@
 {
+  "unknownKey": "",
+
   "mainTitle": "Payload Guest",
   "creditsTitle": "Авторы",
 
@@ -33,6 +35,13 @@
   "errorMetadataMissingPayloadFile": "Не удается найти payload",
 
   "errorNoPayloads": "Нет доступных payload :(",
+
+  "errorSendPayloadOpen": "",
+  "errorSendPayloadBuffer": "",
+  "errorSendPayloadRead": "",
+  "errorSendPayloadCreateSocket": "",
+  "errorSendPayloadConnect": "",
+  "errorSendPayloadSend": "",
 
   "errorShellcodeOpen": "Не удается открыть: %s",
   "errorShellcodeMmap": "Не удается реализовать mmap для payload",

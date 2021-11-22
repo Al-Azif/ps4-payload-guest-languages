@@ -1,4 +1,6 @@
 {
+  "unknownKey": "",
+
   "mainTitle": "Payload Guest",
   "creditsTitle": "Créditos",
 
@@ -33,6 +35,13 @@
   "errorMetadataMissingPayloadFile": "No se pudo encontrar el Payload",
 
   "errorNoPayloads": "No hay Payloads disponibles :(",
+
+  "errorSendPayloadOpen": "",
+  "errorSendPayloadBuffer": "",
+  "errorSendPayloadRead": "",
+  "errorSendPayloadCreateSocket": "",
+  "errorSendPayloadConnect": "",
+  "errorSendPayloadSend": "",
 
   "errorShellcodeOpen": "No se puede abrir: %s",
   "errorShellcodeMmap": "No se pudo aplicar mmap en el payload",

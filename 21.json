@@ -1,4 +1,6 @@
 {
+  "unknownKey": "",
+
   "mainTitle": "Payload مضيف",
   "creditsTitle": "إشادة",
 
@@ -40,7 +42,7 @@
   "errorSendPayloadCreateSocket": "تعذر إنشاء المقبس",
   "errorSendPayloadConnect": "تعذر الاتصال بالخادم",
   "errorSendPayloadSend": "تعذر إرسال payload",
-  
+
   "errorShellcodeOpen": "تعذر فتح: %s",
   "errorShellcodeMmap": "تعذر mmap payload",
   "errorShellcodeMprotect": "تعذر حماية payload",

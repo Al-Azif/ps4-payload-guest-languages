@@ -1,4 +1,6 @@
 {
+  "unknownKey": "",
+
   "mainTitle": "Payload Επισκέπτης",
   "creditsTitle": "Πιστώσεις",
 
@@ -12,7 +14,7 @@
   "credits": "Πιστώσεις",
   "return": "Επιστροφή",
 
-  "pageIndicator": "Σελίδα %i / %i", 
+  "pageIndicator": "Σελίδα %i / %i",
 
   "errorFatal": "ΜΟΙΡΑΙΟ ΛΑΘΟΣ!",
   "errorCloseApplication": "Παρακαλώ Κλείστε την Εφαρμογή.",
@@ -31,7 +33,15 @@
   "errorMetadataMissingFilename": "Λείπει το όνομα αρχείου του payload",
   "errorMetadataNullName": "Άκυρο όνομα payload",
   "errorMetadataMissingPayloadFile": "Δεν είναι δυνατή η εύρεση του payload",
+
   "errorNoPayloads": "Δεν υπάρχουν διαθέσιμα payloads :(",
+
+  "errorSendPayloadOpen": "",
+  "errorSendPayloadBuffer": "",
+  "errorSendPayloadRead": "",
+  "errorSendPayloadCreateSocket": "",
+  "errorSendPayloadConnect": "",
+  "errorSendPayloadSend": "",
 
   "errorShellcodeOpen": "Δεν είναι δυνατό το άνοιγμα: %s",
   "errorShellcodeMmap": "Δεν είναι δυνατό το mmap payload",

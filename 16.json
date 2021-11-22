@@ -1,8 +1,10 @@
 {
+  "unknownKey": "",
+
   "mainTitle": "Payload Guest",
   "creditsTitle": "Autorzy",
 
-  "loadingTick1": "Wczytywanie.",  
+  "loadingTick1": "Wczytywanie.",
   "loadingTick2": "Wczytywanie..",
   "loadingTick3": "Wczytywanie...",
 
@@ -21,7 +23,7 @@
   "errorJailbreak": "Nie można wykonać jailbreaka",
 
   "errorPathOutput": "Ścieżka: %s",
-  "errorIndexOutput": "Indeks: #%zu", 
+  "errorIndexOutput": "Indeks: #%zu",
   "errorHexOutput": "Błąd: 0x%08x",
 
   "errorMetadata": "Błąd Metadanych",
@@ -33,6 +35,13 @@
   "errorMetadataMissingPayloadFile": "Nie można odnaleźć payloada",
 
   "errorNoPayloads": "Brak dostępnych payloadów :(",
+
+  "errorSendPayloadOpen": "",
+  "errorSendPayloadBuffer": "",
+  "errorSendPayloadRead": "",
+  "errorSendPayloadCreateSocket": "",
+  "errorSendPayloadConnect": "",
+  "errorSendPayloadSend": "",
 
   "errorShellcodeOpen": "Nie można otworzyć: %s",
   "errorShellcodeMmap": "Nie można zmapować payloada",

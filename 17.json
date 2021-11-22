@@ -1,6 +1,8 @@
 {
+  "unknownKey": "",
+
   "mainTitle": "Payload Guest",
-  "creditsTitle": "Créditos",  
+  "creditsTitle": "Créditos",
 
   "loadingTick1": "Carregando.",
   "loadingTick2": "Carregando..",
@@ -12,11 +14,11 @@
   "credits": "Créditos",
   "return": "Voltar",
 
-  "pageIndicator": "Página %i / %i", 
-  
+  "pageIndicator": "Página %i / %i",
+
   "errorFatal": "ERRO FATAL!",
   "errorCloseApplication": "Por favor, feche o Aplicativo.",
-  "errorLoadLibjbc": "Falha ao carregar o libjbc.prx", 
+  "errorLoadLibjbc": "Falha ao carregar o libjbc.prx",
   "errorInitializeLibjbc": "Falha ao inicializar libjbc",
   "errorJailbreak": "Falha ao fazer jailbreak",
 
@@ -34,10 +36,17 @@
 
   "errorNoPayloads": "Nenhum payload disponível :(",
 
+  "errorSendPayloadOpen": "",
+  "errorSendPayloadBuffer": "",
+  "errorSendPayloadRead": "",
+  "errorSendPayloadCreateSocket": "",
+  "errorSendPayloadConnect": "",
+  "errorSendPayloadSend": "",
+
   "errorShellcodeOpen": "Falha ao abrir: %s",
   "errorShellcodeMmap": "Falha ao executar o mmap para o payload",
   "errorShellcodeMprotect": "Falha ao executar o mprotect para o payload",
-  "errorShellcodeMunmap": "Falha ao executar o munmap para o payload", 
+  "errorShellcodeMunmap": "Falha ao executar o munmap para o payload",
 
   "creditsText": ""
 }
