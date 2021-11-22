@@ -1,5 +1,5 @@
 {
-  "unknownKey": "",
+  "unknownKey": "[TESTO NON ANCORA TRADOTTO]",
 
   "mainTitle": "Payload Guest",
   "creditsTitle": "Credits",
@@ -36,17 +36,17 @@
 
   "errorNoPayloads": "Nessun payload disponibile :(",
 
-  "errorSendPayloadOpen": "",
-  "errorSendPayloadBuffer": "",
-  "errorSendPayloadRead": "",
-  "errorSendPayloadCreateSocket": "",
-  "errorSendPayloadConnect": "",
-  "errorSendPayloadSend": "",
+  "errorSendPayloadOpen": "Impossibile aprire il payload",
+  "errorSendPayloadBuffer": "Impossibile allocare un buffer per il payload",
+  "errorSendPayloadRead": "Impossibile leggere il payload nel buffer",
+  "errorSendPayloadCreateSocket": "Creazione socket fallita",
+  "errorSendPayloadConnect": "Connessione al server non riuscita",
+  "errorSendPayloadSend": "Impossibile inviare il payload",
 
   "errorShellcodeOpen": "Impossibile aprire: %s",
-  "errorShellcodeMmap": "Unable to mmap payload",
-  "errorShellcodeMprotect": "Unable to mprotect payload",
-  "errorShellcodeMunmap": "Failed to munmap payload",
+  "errorShellcodeMmap": "Impossibile effettuare un mmap per il payload",
+  "errorShellcodeMprotect": "Impossibile effettuare un mprotect per il payload",
+  "errorShellcodeMunmap": "Impossibile effettuare un munmap per il payload",
 
   "creditsText": ""
 }
