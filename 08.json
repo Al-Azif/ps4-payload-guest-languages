@@ -1,5 +1,5 @@
 {
-  "unknownKey": "",
+  "unknownKey": "[НЕПЕРЕВЕДЕННЫЙ ТЕКСТ]",
 
   "mainTitle": "Payload Guest",
   "creditsTitle": "Авторы",
@@ -36,12 +36,12 @@
 
   "errorNoPayloads": "Нет доступных payload :(",
 
-  "errorSendPayloadOpen": "",
-  "errorSendPayloadBuffer": "",
-  "errorSendPayloadRead": "",
-  "errorSendPayloadCreateSocket": "",
-  "errorSendPayloadConnect": "",
-  "errorSendPayloadSend": "",
+  "errorSendPayloadOpen": "Не удается открыть payload",
+  "errorSendPayloadBuffer": "Не удается зарезервировать место для payload в буфере",
+  "errorSendPayloadRead": "Не удается поместить payload в буфер",
+  "errorSendPayloadCreateSocket": "Не удается создать socket",
+  "errorSendPayloadConnect": "Не удается подключиться к серверу",
+  "errorSendPayloadSend": "Не удается отправить payload",
 
   "errorShellcodeOpen": "Не удается открыть: %s",
   "errorShellcodeMmap": "Не удается реализовать mmap для payload",
