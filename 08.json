@@ -48,5 +48,5 @@
   "errorShellcodeMprotect": "Не удается реализовать mprotect для payload",
   "errorShellcodeMunmap": "Не удается реализовать munmap для payload",
 
-  "creditsText": "d666anggel"
+  "creditsText": ""
 }

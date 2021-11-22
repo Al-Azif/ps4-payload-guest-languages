@@ -48,5 +48,5 @@
   "errorShellcodeMprotect": "Δεν είναι δυνατό το mprotect payload",
   "errorShellcodeMunmap": "Απέτυχε το munmap payload",
 
-  "creditsText": "Confused"
+  "creditsText": ""
 }

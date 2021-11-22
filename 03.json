@@ -48,5 +48,5 @@
   "errorShellcodeMprotect": "No se pudo aplicar mprotect en el payload",
   "errorShellcodeMunmap": "No se pudo aplicar munmap en el payload",
 
-  "creditsText": "mr0ta"
+  "creditsText": ""
 }

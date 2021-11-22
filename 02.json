@@ -47,5 +47,5 @@
   "errorShellcodeMprotect": "Incapable de mprotect payload",
   "errorShellcodeMunmap": "Échec munmap payload",
 
-  "creditsText": "Nazky"
+  "creditsText": ""
 }

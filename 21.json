@@ -48,5 +48,5 @@
   "errorShellcodeMprotect": "تعذر حماية payload",
   "errorShellcodeMunmap": "فشل في munmap payload",
 
-  "creditsText": "silent_6600 aka Ahmed Zahrani"
+  "creditsText": ""
 }
