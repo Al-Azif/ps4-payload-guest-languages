@@ -41,7 +41,7 @@
 
   // Post parsing errors
   "errorNoPayloads": "No payloads available :(", // The error displayed when there are no available payloads
-  
+
   // Errors when launching payloads
   "errorShellcodeOpen": "Unable to open: %s",             // Error when unable to open/read a payload file for launching, %s represents the path to the payload file that was attempted
   "errorShellcodeMmap": "Unable to mmap payload",         // Error when unable to mmap space
