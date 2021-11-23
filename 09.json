@@ -1,5 +1,5 @@
 {
-  "unknownKey": "",
+  "unknownKey": "번역되어 있지 않은 텍스트",
 
   "mainTitle": "페이로드 게스트",
   "creditsTitle": "크레딧",
@@ -36,12 +36,12 @@
 
   "errorNoPayloads": "사용 가능한 페이로드 없음 :(",
 
-  "errorSendPayloadOpen": "",
-  "errorSendPayloadBuffer": "",
-  "errorSendPayloadRead": "",
-  "errorSendPayloadCreateSocket": "",
-  "errorSendPayloadConnect": "",
-  "errorSendPayloadSend": "",
+  "errorSendPayloadOpen": "페이로드를 열 수 없음",
+  "errorSendPayloadBuffer": "페이로드 버퍼를 할당할 수 없음",
+  "errorSendPayloadRead": "페이로드 버퍼로 읽을 수 없음",
+  "errorSendPayloadCreateSocket": "소켓을 만들 수 없음",
+  "errorSendPayloadConnect": "서버에 접속할 수 없음",
+  "errorSendPayloadSend": "페이로드를 전송할 수 없음",
 
   "errorShellcodeOpen": "열 수 없음: %s",
   "errorShellcodeMmap": "mmap 페이로드 불가",
