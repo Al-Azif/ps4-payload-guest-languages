@@ -1,0 +1,52 @@
+{
+  "unknownKey": "",
+
+  "mainTitle": "",
+  "creditsTitle": "",
+
+  "loadingTick1": "",
+  "loadingTick2": "",
+  "loadingTick3": "",
+
+  "ok": "",
+  "select": "",
+  "refresh": "",
+  "credits": "",
+  "return": "",
+
+  "pageIndicator": "",
+
+  "errorFatal": "",
+  "errorCloseApplication": "",
+  "errorLoadLibjbc": "",
+  "errorInitializeLibjbc": "",
+  "errorJailbreak": "",
+
+  "errorPathOutput": "",
+  "errorIndexOutput": "",
+  "errorHexOutput": "",
+
+  "errorMetadata": "",
+  "errorMetadataRead": "",
+  "errorMetadataMalformed": "",
+  "errorMetadataMissingName": "",
+  "errorMetadataMissingFilename": "",
+  "errorMetadataNullName": "",
+  "errorMetadataMissingPayloadFile": "",
+
+  "errorNoPayloads": "",
+
+  "errorSendPayloadOpen": "",
+  "errorSendPayloadBuffer": "",
+  "errorSendPayloadRead": "",
+  "errorSendPayloadCreateSocket": "",
+  "errorSendPayloadConnect": "",
+  "errorSendPayloadSend": "",
+
+  "errorShellcodeOpen": "",
+  "errorShellcodeMmap": "",
+  "errorShellcodeMprotect": "",
+  "errorShellcodeMunmap": "",
+
+  "creditsText": ""
+}
