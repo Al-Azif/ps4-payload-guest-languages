@@ -1,63 +1,52 @@
 {
-  "unknownKey": "[TEKST NIET VERTAALD]", // The return when a string does not have a proper translation for the message yet
+  "unknownKey": "[TEKST NIET VERTAALD]",
 
-  // Page titles
-  "mainTitle": "Payload Gast", // The title on the main screen
-  "creditsTitle": "Credits",    // The title on the credits screen
+  "mainTitle": "Payload Gast",
+  "creditsTitle": "Credits",
 
-  // Loading ticks
-  "loadingTick1": "Laden.",   // Used when refreshing the payloads will used tick1, then 2, then 3, repeating
-  "loadingTick2": "Laden..",  // Used when refreshing the payloads will used tick1, then 2, then 3, repeating
-  "loadingTick3": "Laden...", // Used when refreshing the payloads will used tick1, then 2, then 3, repeating
+  "loadingTick1": "Laden.",
+  "loadingTick2": "Laden..",
+  "loadingTick3": "Laden...",
 
-  // Button Labels
-  "ok": "Ok",           // The "Ok" button prompt to close errors
-  "select": "Selecteer",   // The "Select" button prompt to use on the main screen for the cross button
-  "refresh": "Herversen", // The "Refresh" button prompt to use on the main screen for the square button
-  "credits": "Credits", // The "Credits" button prompt to use on the main screen for the triangle button
-  "return": "Terug",   // The "Return" button prompt to use on the credits screen for the the circle button
+  "ok": "Ok",
+  "select": "Selecteer",
+  "refresh": "Herversen",
+  "credits": "Credits",
+  "return": "Terug",
 
-  // Page indicator
-  "pageIndicator": "Page %i / %i", // Used for page numbering... the first %i used will be the current page, the second %i will be the total number of pages... if you're language needs this reversed make it known
+  "pageIndicator": "Page %i / %i",
 
-  // Fatal Errors when starting the application
-  "errorFatal": "FATALE FOUT!",                             // Title of the fatal error screen
-  "errorCloseApplication": "Sluit de applicatie.", // Notice for the user to close the application due to a fatal error
-  "errorLoadLibjbc": "Kan 'libjbc.prx' niet laden.",           // Error if PRX file could not be loaded
-  "errorInitializeLibjbc": "Kan 'libjbc' niet initialiseren.",   // Error is functions from the PRX could not be initialized
-  "errorJailbreak": "Jailbreak mislukt.",                  // Error if jailbreaking failed
+  "errorFatal": "FATALE FOUT!",
+  "errorCloseApplication": "Sluit de applicatie.",
+  "errorLoadLibjbc": "Kan 'libjbc.prx' niet laden.",
+  "errorInitializeLibjbc": "Kan 'libjbc' niet initialiseren.",
+  "errorJailbreak": "Jailbreak mislukt.",
 
-  // General usage for error messages
-  "errorPathOutput": "Pad: %s",     // %s represents the path to the file with the error
-  "errorIndexOutput": "Index: #%zu", // %zu represents the index number of the metadata with an issue
-  "errorHexOutput": "Fout: 0x%08x", // 0x%08x represents the hex value for the specific error
+  "errorPathOutput": "Pad: %s",
+  "errorIndexOutput": "Index: #%zu",
+  "errorHexOutput": "Fout: 0x%08x",
 
-  // Errors when parsing "meta.json"
-  "errorMetadata": "Metadata Fout",                           // The "header" to get used for metadata errors
-  "errorMetadataRead": "Kan `meta.json` niet lezen.",           // If the meta.json file could not be opened/read
-  "errorMetadataMalformed": "meta.json misvormd.",           // If the meta.json file could not be parsed correctly
-  "errorMetadataMissingName": "Payload naam niet gevonden.",          // If a meta entry does not have a "name" attribute
-  "errorMetadataMissingFilename": "Payload bestandsnaam niet gevonden.",  // If a meta entry does not have a "filename" attribute
-  "errorMetadataNullName": "NULL payload naam.",                // If a meta entry's "name" attribute is a NULL value
-  "errorMetadataMissingPayloadFile": "Kan payload niet vinden.", // If a meta entry's "filename" attribute file is not at the specified location
+  "errorMetadata": "Metadata Fout",
+  "errorMetadataRead": "Kan `meta.json` niet lezen.",
+  "errorMetadataMalformed": "meta.json misvormd.",
+  "errorMetadataMissingName": "Payload naam niet gevonden.",
+  "errorMetadataMissingFilename": "Payload bestandsnaam niet gevonden.",
+  "errorMetadataNullName": "NULL payload naam.",
+  "errorMetadataMissingPayloadFile": "Kan payload niet vinden.",
 
-  // Post parsing errors
-  "errorNoPayloads": "Geen payloads beschikbaar :(", // The error displayed when there are no available payloads
+  "errorNoPayloads": "Geen payloads beschikbaar :(",
 
-  // Errors when sending payloads
-  "errorSendPayloadOpen": "Kan payload niet openen.",              // If the "SendPayload" function fails to open the payload file
-  "errorSendPayloadBuffer": "Payload buffer kan niet worden toegewezen.", // If allocating the memory to store the payload fails
-  "errorSendPayloadRead": "Payload kan niet in buffer worden gelezen.",  // If reading the payload into the allocated memory fails
-  "errorSendPayloadCreateSocket": "Kan geen socket maken.",     // If creating the socket file descriptor fails
-  "errorSendPayloadConnect": "Kan niet verbinden met de server.",      // If trying to connect to the server fails (Likely no response)
-  "errorSendPayloadSend": "Payload kan niet worden verzonden.",              // If it can connect but sending the payload fails
+  "errorSendPayloadOpen": "Kan payload niet openen.",
+  "errorSendPayloadBuffer": "Payload buffer kan niet worden toegewezen.",
+  "errorSendPayloadRead": "Payload kan niet in buffer worden gelezen.",
+  "errorSendPayloadCreateSocket": "Kan geen socket maken.",
+  "errorSendPayloadConnect": "Kan niet verbinden met de server.",
+  "errorSendPayloadSend": "Payload kan niet worden verzonden.",
 
-  // Errors when launching payloads
-  "errorShellcodeOpen": "Kan bestand niet openen: %s",             // Error when unable to open/read a payload file for launching, %s represents the path to the payload file that was attempted
-  "errorShellcodeMmap": "Mmap kan niet worden toegewezen op payload.",         // Error when unable to mmap space
-  "errorShellcodeMprotect": "Mprotect kan niet worden toegewezen op payload.", // Error when unable to mprotect the mmap'd space
-  "errorShellcodeMunmap": "Munmap kan niet worden toegewezen op payload.",     // Error when unable to munmap the mmap'd space
+  "errorShellcodeOpen": "Kan bestand niet openen: %s",
+  "errorShellcodeMmap": "Mmap kan niet worden toegewezen op payload.",
+  "errorShellcodeMprotect": "Mprotect kan niet worden toegewezen op payload.",
+  "errorShellcodeMunmap": "Munmap kan niet worden toegewezen op payload.",
 
-  // Credits text
-  "creditsText": ""         // The actual credits displayed on the credits page... this may just get baked into the code
+  "creditsText": ""
 }
