@@ -1,4 +1,6 @@
 {
+  "unknownKey": "",
+
   "mainTitle": "",
   "creditsTitle": "",
 
@@ -33,6 +35,13 @@
   "errorMetadataMissingPayloadFile": "",
 
   "errorNoPayloads": "",
+
+  "errorSendPayloadOpen": "",
+  "errorSendPayloadBuffer": "",
+  "errorSendPayloadRead": "",
+  "errorSendPayloadCreateSocket": "",
+  "errorSendPayloadConnect": "",
+  "errorSendPayloadSend": "",
 
   "errorShellcodeOpen": "",
   "errorShellcodeMmap": "",

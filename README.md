@@ -1,5 +1,7 @@
 # Languages
 
+**NOTE:** These numbers and languages are determined by Sony and are all the current system languages supported though FW 9.00.
+
 |  File   |         Language         |
 |--------:|:-------------------------|
 | 00.json | Japanese                 |
