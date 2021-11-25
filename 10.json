@@ -1,5 +1,5 @@
 {
-  "unknownKey": "",
+  "unknownKey": "[缺少翻譯 測試]",
 
   "mainTitle": "插件注入器",
   "creditsTitle": "感謝列表",
@@ -36,12 +36,12 @@
 
   "errorNoPayloads": "沒有可以激活的插件 :(",
 
-  "errorSendPayloadOpen": "",
-  "errorSendPayloadBuffer": "",
-  "errorSendPayloadRead": "",
-  "errorSendPayloadCreateSocket": "",
-  "errorSendPayloadConnect": "",
-  "errorSendPayloadSend": "",
+  "errorSendPayloadOpen": "無法打開插件",
+  "errorSendPayloadBuffer": "無法分配插件緩存",
+  "errorSendPayloadRead": "無法將插件載入緩存",
+  "errorSendPayloadCreateSocket": "無法創建 socket",
+  "errorSendPayloadConnect": "無法連接到服務器",
+  "errorSendPayloadSend": "無法發送插件",
 
   "errorShellcodeOpen": "無法打開: %s",
   "errorShellcodeMmap": "插件無法 執行mmap",
